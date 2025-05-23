@@ -23,13 +23,6 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: const FirebaseOptions(
-      apiKey: "AIzaSyAF6FXU_2Xfk-mYJjcERPEm75f5KhASeqU",
-      authDomain: "shoes-ecommerce-app-25be8.firebaseapp.com",
-      projectId: "shoes-ecommerce-app-25be8",
-      storageBucket: "shoes-ecommerce-app-25be8.appspot.com",
-      messagingSenderId: "1028040956097",
-      appId: "1:1028040956097:web:8b0a36e9a855565293dc40",
-      measurementId: "G-M7Z22PZGDN",
     ),
   );
   runApp(MyApp());
